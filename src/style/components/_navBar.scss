@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5em;
+    height: 6em;
+    background: #f7f6fb;
+    text-align: center;
+    position: relative;
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    .menu_bar {
+        display: none;
+    }
+    .links {
+        display: flex;
+        gap: 2em;
+    }
+    .wcicon {
+        display: flex;
+    }
+    .cart {
+        position: absolute;
+        left: 89%;
+        background: red;
+        color: #fff;
+        border-radius: 50%;
+        width: 1rem;
+        height: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    nav {
+        position: relative;
+    }
+    .cart {
+        position: absolute;
+        left: 80%;
+    }
+    .menu_bar {
+        display: block;
+    }
+    a {
+        display: none;
+    }
+}

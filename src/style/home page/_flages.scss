@@ -1,0 +1,22 @@
+.Flages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    gap: 3em;
+    background: #f1f1f1;
+    .Flagess {
+        display: flex;
+        gap: .5em;
+    }
+}
+@media (max-width: 768px) {
+    .Flages {
+        display: grid;
+    }
+}
+@media (max-width: 970px) {
+    .Flages {
+        display: grid;
+    }
+}

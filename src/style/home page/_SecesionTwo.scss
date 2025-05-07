@@ -1,0 +1,31 @@
+.SecesionTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  background: #f6f7fb;
+  gap: 2em;
+  .imgOfSecTwo img {
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s ease;
+  }
+  .imgOfSecTwo img:hover {
+    transform: translate(-10px, -20px);
+  }
+  .secesion2content {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  @media (max-width: 768px) {
+    display: grid;
+    padding: 2em;
+    .imgOfSecTwo img {
+      width: 100%;
+    }
+    .secesion2content {
+      width: 100%;
+    }
+  }
+}

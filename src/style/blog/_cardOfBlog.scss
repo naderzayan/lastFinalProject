@@ -1,0 +1,42 @@
+.mainOfCard {
+    padding: .5em;
+    .card {
+        display: flex;
+        background: #f6f7f9;
+        width: 100%;
+        padding: .5em;
+        border-radius: .5em;
+        gap: 1.5em;
+    }
+    .categofcard {
+        display: flex;
+        align-items: center;
+        gap: .5em;
+    }
+    .categofcard:hover {
+        cursor: pointer;
+        color: blue;
+    }
+    .person:hover {
+        cursor: pointer;
+        color: blue;
+    }
+    h3:hover {
+        cursor: pointer;
+        color: orange;
+    }
+}
+@media (max-width: 768px) {
+    .imgOfBlog {
+        height: 300px;
+        width: 350px;
+        border-radius: .5em;
+    }
+}
+@media (max-width: 970px) {
+    .imgOfBlog {
+        height: 300px;
+        width: 100%;
+        border-radius: .5em;
+    }
+}

@@ -1,0 +1,18 @@
+.last_footer {
+    display: flex;
+    padding: 1.5em;
+    justify-content: space-around;
+    background: #282828;
+    color: #fff;
+    font-weight: bolder;
+}
+@media (max-width: 768px) {
+    .last_footer {
+        font-size: 8px;
+    }
+}
+@media (max-width: 970px) {
+    .last_footer {
+        font-size: 8px;
+    }
+}

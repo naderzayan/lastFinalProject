@@ -1,0 +1,88 @@
+.mainOfContact {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+  margin: 1em;
+  background: #f6f7f9;
+  border-radius: .5em;
+  img.image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: .5em;
+    object-fit: cover;
+  }
+  .dataOfContact {
+    background: #f6f7f9;
+    padding: 1em;
+    border-radius: .5em;
+    width: 100%;
+    max-width: 600px;
+    button {
+      margin-top: 1em;
+      padding: 0.8em 1.5em;
+      background: orangered;
+      color: white;
+      border: none;
+      border-radius: 0.5em;
+      cursor: pointer;
+    }
+    button:hover {
+      background: greenyellow;
+      color: #000;
+    }
+  }
+  .mainOfinput {
+    margin-bottom: 1em;
+
+    .input {
+      width: 100%;
+      padding: 1em;
+      border: 1px solid #ccc;
+      border-radius: 0.5em;
+    }
+  }
+  .check {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainOfContact {
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+    gap: 1em;
+    background: white;
+  }
+
+  .dataOfContact {
+    padding: 1em;
+    margin: 0;
+  }
+  .image {
+    width: 350px;
+    height: auto;
+  }
+}
+@media (max-width: 970px) {
+  .mainOfContact {
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+    gap: 1em;
+    background: white;
+  }
+
+  .dataOfContact {
+    padding: 1em;
+    margin: 0;
+  }
+  .image {
+    width: 350px;
+    height: auto;
+  }
+}

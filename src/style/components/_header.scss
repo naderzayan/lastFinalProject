@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5em;
+    padding: .2em;
+    padding-inline: 2em;
+    background: #f6f7fb;
+}
+.login {
+    text-decoration: none;
+    color: #000;
+}
+.follow {
+    display: flex;
+    gap: 1em;
+}
+.item_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+@media  (max-width : 768px) {
+    .header {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+    .hrHeader {
+        display: none;
+    }
+}
+@media  (max-width : 970px) {
+    .header {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+    .hrHeader {
+        display: none;
+    }
+}

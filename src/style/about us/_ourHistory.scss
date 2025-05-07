@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    margin: 2em;
+}
+.ecs {
+    display: flex;
+    gap: 2em;
+}
+.yhc {
+    color: blue;
+}
+h6 {
+    color: blue;
+}
+@media (max-width: 768px) {
+    .main {
+        display: grid;
+        width: 100%;
+        max-width: 500;
+        padding: 1em;
+        margin: .2em;
+    }
+    .ourHistoryImage {
+        height: auto;
+        width: 350px;
+    }
+}
+@media (max-width: 970px) {
+    .main {
+        display: grid;
+        width: 100%;
+        max-width: 500;
+        padding: 1em;
+        margin: .2em;
+    }
+    .ourHistoryImage {
+        height: auto;
+        width: 100%;
+    }
+}

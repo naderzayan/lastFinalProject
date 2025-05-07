@@ -1,0 +1,21 @@
+.TopBrands {
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    padding: 1.5em;
+}
+@media (max-width: 767px) {
+    .TopBrands {
+        display: grid;
+    }
+}
+@media (max-width: 970px) {
+    .TopBrands {
+        display: grid;
+    }
+}
+@media (max-width: 1024px) {
+    .TopBrands {
+        display: grid;
+    }
+}

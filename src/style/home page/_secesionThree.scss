@@ -1,0 +1,53 @@
+.SecesionThree {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    gap: 2em;
+}
+.containerOfDiscount {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    text-align: center;
+    .DiscountOfProduct {
+        padding: .5em;
+        margin: .5em;
+        border: 1px solid gray;
+        border-radius: .5em;
+        img {
+            border: 1px solid gray;
+            border-radius: .5em;
+        }
+        del {
+            opacity: .5;
+        }
+    }
+}
+.titleOfSecesion {
+    text-align: center;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .SecesionThree {
+        display: grid;
+    }
+    .containerOfDiscount {
+        display: grid;
+    }
+}
+@media (max-width: 970px) {
+    .SecesionThree {
+        display: grid;
+    }
+    .containerOfDiscount {
+        display: grid;
+    }
+}
+@media (max-width: 1024px) {
+    .SecesionThree {
+        display: grid;
+    }
+    .containerOfDiscount {
+        display: grid;
+    }
+}

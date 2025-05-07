@@ -1,0 +1,36 @@
+.letterupdates {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+    background: #f6f7f5;
+    .supinpbut {
+        display: flex;
+        gap: .5em;
+    }
+    input {
+        height: 3em;
+        width: 100%;
+        padding-inline: 1.5em;
+    }
+    .supbut {
+        background: blue;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+@media (max-width: 768px) {
+    .letterupdates {
+        display: grid;
+    }
+    input {
+        border: none;
+    }
+}
+@media (max-width: 970px) {
+    .letterupdates {
+        display: grid;
+    }
+    input {
+        border: none;
+    }
+}

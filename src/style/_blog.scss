@@ -1,0 +1,38 @@
+.mainOfBlog {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+}
+@media (max-width: 768px) {
+    .mainOfBlog {
+        display: grid;
+        justify-content: center;
+    }
+    .img {
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width: 970px) {
+    .mainOfBlog {
+        display: grid;
+        justify-content: center;
+    }
+    .img {
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .mainOfBlog {
+        display: grid;
+        justify-content: center;
+    }
+    .img {
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+}

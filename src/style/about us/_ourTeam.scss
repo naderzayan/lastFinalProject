@@ -1,0 +1,49 @@
+.mainOfTeam {
+    padding: 2em;
+    margin: 2em;
+    h6 {
+        color: blue;
+    }
+    h4 {
+        color: blue;
+    }
+}
+.ourTeam {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2.5em;
+}
+@media (max-width: 768px) {
+    .ourTeam {
+        display: grid;
+    }
+    .angels {
+        text-align: center;
+    }
+    .meet {
+        text-align: center;
+    }
+}
+@media (max-width: 970px) {
+    .ourTeam {
+        display: grid;
+    }
+    .angels {
+        text-align: center;
+    }
+    .meet {
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {
+    .ourTeam {
+        display: grid;
+    }
+    .angels {
+        text-align: center;
+    }
+    .meet {
+        text-align: center;
+    }
+}

@@ -1,0 +1,61 @@
+.SecesionOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  padding: 1em;
+  flex-wrap: wrap;
+  .him {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    width: 45%;
+    min-width: 280px;
+    height: 250px;
+    border: 1px solid #fff;
+    background-image: url(./forHim.jpg);
+    background-size: cover;
+    color: #fff;
+    border-radius: 1em;
+  }
+  .her {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    width: 45%;
+    min-width: 280px;
+    height: 250px;
+    border: 1px solid #fff;
+    background-image: url(./forHer.jpg);
+    background-size: cover;
+    color: black;
+    border-radius: 1em;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 2em;
+
+    .him,
+    .her {
+      width: 100%;
+      padding: 2em;
+    }
+  }
+  @media (max-width: 970px) {
+    flex-direction: column;
+    padding: 2em;
+
+    .him,
+    .her {
+      width: 100%;
+      padding: 2em;
+    }
+  }
+}

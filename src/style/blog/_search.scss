@@ -1,0 +1,36 @@
+.search {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 1em;
+    input {
+        height: 4em;
+        padding-inline: 2em;
+        width: 100%;
+        border: 1px solid #000;
+        border-radius: .5em;
+    }
+    .searchsvg {
+        padding: .5em;
+        margin: .5em;
+        border: 1px solid #000;
+        border-radius: .5em;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 768px) {
+  .search {
+    padding: 1em;
+    margin: .2em;
+  }
+}
+@media (max-width: 970px) {
+  .search {
+    padding: 1em;
+    margin: .2em;
+  }
+}
